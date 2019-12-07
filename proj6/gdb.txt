@@ -321,3 +321,15 @@ Argument required (starting display address).
 0xffffd164:	0xffffd168	0x68732f68	0x622f6800	0xe3896e69
 0xffffd174:	0x5352d231	0xc031e189	0x80cd0bb0	0x00000001
 0xffffd184:	0xffffd330	0x00000000
+eax            0x99	153
+ecx            0xffffd176	-11914
+edx            0x3030f330	808514352
+ebx            0xffffffff	-1
+esp            0xffffd179	0xffffd179
+ebp            0x0	0x0
+esi            0x0	0
+edi            0x804805c	134512732
+eip            0x8048178	0x8048178
+eflags         0x286	[ PF SF IF ]
+cs             0x23	35
+Quit
